@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+  height: 600px;
+  border: 2px solid black;
+  margin: 0 auto;
+  position: relative;
+}
+.nutrition {
+  width: 80px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  right: 30px;
+}
+.reception {
+  width: 50px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  right: 130px;
+  z-index: 1;
+}
+.wire {
+  position: absolute;
+  width: 992px;
+  height: 2px;
+  background-color: brown;
+  top: 50%;
+  margin-left: 50px;
+}
+.wire1 {
+  width: 2px;
+  height: 100%;
+  background-color: brown;
+  position: absolute;
+  right: 154px;
+}
+.tormentor {
+  position: absolute;
+  top: 48.5%;
+  left: 200px;
+  display: flex;
+  gap: 600px;
+}
+.thermal {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+}
+.circle {
+  width: 600px;
+  height: 600px;
+  background-color: gray;
+  border-radius: 50%;
+}
